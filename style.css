@@ -1,0 +1,688 @@
+/* Style untuk navigasi */
+body {
+    background-color: white;
+}
+nav {
+    color:white;
+}
+* {
+  box-sizing: border-box;
+}
+nav {
+    border: 1px solid antiquewhite;
+}
+nav ul {
+    border: 1px solid;
+}
+nav li {
+    margin-top: 6vw;
+    list-style: none;
+    display: inline-block;
+    margin-left: 0px;
+}
+#about {
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 2vw;
+    background-color: darkblue;
+}
+#about:hover {
+    background-color: white;
+    color: darkblue;
+    box-shadow: 0px 8px 10px 0px rgba(8, 147, 181, 0.5);
+}
+#Order {
+   text-decoration: none;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 2vw;
+    background-color: darkblue;
+}
+#Order:hover {
+    background-color: white;
+    color: darkblue;
+    box-shadow: 5px;
+    box-shadow: 0px 8px 10px 0px rgba(8, 147, 181, 0.5);
+}
+#Portofolio {
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 2vw;
+    background-color: darkblue;
+}
+#Portofolio:hover {
+    background-color: white;
+    color: darkblue;
+    box-shadow: 0px 8px 10px 0px rgba(8, 147, 181, 0.5);
+}
+#contact {
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 2vw;
+    background-color: darkblue;
+}
+#contact:hover {
+    background-color: white;
+    color: darkblue;
+    box-shadow: 0px 8px 10px 0px rgba(8, 147, 181, 0.5);
+}
+#katalog {
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 2vw;
+    background-color: white;
+}
+#katalog:hover {
+    background-color: darkblue;
+    color: white;
+    box-shadow: 5px;
+    box-shadow: 0px 8px 10px 0px rgba(8, 147, 181, 0.5);
+}
+ 
+/* Style untuk konten */
+#content {
+    padding: 20px;
+    border: 1px solid;
+    background-color: darkblue;
+    height: 150px;
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-top: 20px;
+}
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 4vw;
+}
+p {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 4VW;
+    margin-top: 4VW;
+}
+
+/* style untuk banner utama halaman */
+#banner_halaman {
+    border:1px solid;
+    border-bottom-right-radius:15px ;
+    border-bottom-left-radius: 15px;
+    margin-bottom: 0px;
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+img, .banner-utama {
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+
+}
+
+/* style bagian about us */
+#about1 {
+    border:1px white;
+    width: 100%;
+    height: 500px;
+    margin-top: 0px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: cursive;
+    color: black;
+    margin-top: 100px;
+}
+h2:hover {
+    color: darkblue;
+    text-decoration: overline;
+    font-size: 45px;
+}
+
+#text_about {
+    font-size: 2.6vw;
+    color: black;
+    text-align: center;
+    border: 3px solid;
+    width:33%;
+    height: auto;
+    font-family: times new roman,sans-serif;
+    padding: 25px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5px;
+    background-color: white;
+    border-color: grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+#text_about:hover {
+    box-shadow: 5px 10px 15px 5px rgba(8, 147, 181, 0.5);
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+}
+
+.banner_about {
+    border: 1px solid;
+    width: 50%;
+    height: 300px;
+    float: right;
+    margin-right: 5%;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* style untuk menu cabang qonkar */
+.service {
+    border:1px white;
+    width: 100%;
+    height: 60vw;
+    background-color: white;
+    margin-left: 5px;
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+ .bagian_service {
+  float: left;
+  width: 25vw;
+  padding: 10px;
+  height: auto;
+  margin-left: 4vw; 
+  margin-top: 10vw;
+  box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding-top: 2vw;
+  background-color: white;
+
+/* Should be removed. Only for demonstration */
+}
+.bagian_service1 {
+    float: left;
+    width: 25vw;
+    padding: 10px;
+    height: auto;
+    margin-left: 18vw; 
+    margin-top: 10px;
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding-top: 2vw;
+    background-color: white;
+  
+  /* Should be removed. Only for demonstration */
+  }
+  .bagian_service2 {
+    float: left;
+    width: 25vw;
+    padding: 10px;
+    height: 17vw;
+    margin-left: 6vw; 
+    margin-top: 10px;
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding-top: 2vw;
+    background-color: white;
+  
+  /* Should be removed. Only for demonstration */
+  }
+.bagian_service:hover {
+    background-color: #FFF2D8;
+}
+.bagian_service1:hover {
+    background-color: #FFF2D8;
+}
+.bagian_service2:hover {
+    background-color: #FFF2D8;
+}
+/* Clear floats after the columns */
+.service:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#store {
+    width: 15vw;
+    height: auto;
+    margin: 2.3vw;
+    margin-top: 2vw;
+    display: block;
+    float: right;
+}
+#store1 {
+    width: 15vw;
+    height: auto;
+    margin: 2vw;
+    margin-top: vw;
+    margin-left: 2.5vw;
+}
+#store2 {
+    width: 20vw;
+    height: auto;
+    margin: 2vw;
+    margin-top: 5vw;
+    display: block;
+    float: right;
+}
+/*style untuk product */
+
+.bagian {
+display: inline-block;
+  float: left;
+  width: 70vw;
+  padding: 10px;
+  height: 500px; 
+  margin-left: 5vw;
+  margin-top: 0px;
+/* Should be removed. Only for demonstration */
+}
+
+
+
+/* Clear floats after the columns */
+.Product:after {
+  display: table;
+  clear: both;
+}
+#kemeja {
+    width:60vw;
+    height: auto;
+    margin-left: 10vw;
+}
+.product1 {
+    border:1px solid;
+    color: white;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: #1f4172;
+    font-style: bold;
+    font-weight: 20vw;
+    width: 70vw;
+}
+.product2 {
+
+    color: black;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-style: bold;
+    font-weight: 50vw;
+    width: 70vw;
+}
+.cek {
+    border:1px solid;
+    color: whitesmoke;
+    padding: 10px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: green;
+    font-style: bold;
+    font-weight: 15px;
+    width: 70vw;
+}
+.product1:hover {
+    background-color: white;
+    color: #1f4172;
+    font-style: italic;
+    padding: 4vw;
+}
+.cek:hover {
+    background-color: white;
+    color: Green;
+    font-style: italic;
+    padding: 4vw;
+}
+/*style untuk client */
+.client {
+
+    margin:40px 5px;
+    border-radius: 20px;
+     box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
+     width:100%;
+     display: inline-block;
+     float: left;
+}
+.bagian_client {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    margin-top: 20px;
+
+/* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.client:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#sponsor {
+    width:80vw;
+    height: auto;
+    margin-left: 3vw;
+}
+
+/*style untuk galery */
+.galery {
+
+    margin:40px 5px;
+    border-radius: 20px;
+     box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
+     width:100%;
+     height: auto;
+     display: inline-block;
+     float: left;
+}
+.bagian_galery {
+  float: left;
+  width: 50vw;
+  padding: 10px;
+  height: auto; 
+  margin-top: 20px;
+/* Should be removed. Only for demonstration */
+}
+    #bagian_sgalery1 {
+        width:80vw;
+        height: auto;
+        margin-left: 3vw;
+    }
+/* Clear floats after the columns */
+.client:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*style untuk testimoni */
+.testimoni {
+
+    margin:30px 5px;
+    border-radius: 20px;
+     box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
+     width:100%;
+     height: auto;
+     display: inline-block;
+     float: left;
+}
+.bagian_testimoni {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: auto; 
+  margin-top: 5vw;
+/* Should be removed. Only for demonstration */
+}
+.order {
+    width:80vw;
+    height: auto;
+    margin-left: 4vw;
+}
+/* Clear floats after the columns */
+.testimoni:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*style untuk testimoni */
+.pemesanan {
+
+    margin:50px 5px;
+    border-radius: 20px;
+     box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
+     width:89vw;
+     height: auto;
+     display: inline-block;
+     float: left;
+}
+.bagian_pemesanan {
+  float: left;
+  padding: 30px;
+  height: 500px; 
+  margin-top: 10vw;
+  margin-left: 10px;
+/* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.pemesanan:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ini bagian footer */
+footer {
+    border:1px solid;
+    border-radius: 10px;
+    background-color: darkblue;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0px;
+}
+h3 {
+    margin-top: 30vw;
+    font-size: 15px;
+    text-align: center;
+    font-family:sans-serif;
+    font-style: italic;
+    color: black;
+}
+.paragraf_contact {
+    margin-top: 3vw;
+    color: black;
+    font-size:4vw;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* bagian testimoni */
+.container {
+    background-color: white;
+    padding: 50px 0 0 0;
+}
+
+/* Slideshow container */
+.content-slide {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.imgslide {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+    width:100%;height: auto;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    color: rgb(255, 254, 224);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.pre:hover,
+.next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+}
+
+.text {
+    color: #fafafa;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.content-slide .numberslide {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* resposive */
+
+@media screen and (max-width: 800px) {
+
+    .content-slide {
+        padding: 8px 50px 12px 50px;
+    }
+
+    .next {
+        right: 50px;
+        border-radius: 3px 0 0 3px;
+    }
+    
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }    
+    to {
+        opacity: 1;
+    }
+}
+
+.container .page {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.page .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 50%;
+}
+
+.page .active,
+.page .dot:hover {
+    background-color: #ce0000;
+}
+
+
+
+
+
+
+.order-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+}
+
+select,
+input[type="number"],
+textarea {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+h4 {
+    font-size: 15vw;
+    font-family: 'Courier New', Courier, monospace;
+}
