@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Order Baju</title>
+    <style>
+        body {
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <div class="order-form">
+        <h4>Detail Pesanan Anda</h4>
+        <form>
+            <label for="color">Kode Warna:</label>
+            <select id="color" name="color">
+                <option value="merah">Merah</option>
+                <option value="biru">Biru</option>
+                <option value="hijau">Hijau</option>
+                <option value="kuning">Kuning</option>
+            </select>
+
+            <label for="color">Kode Kombinasi Warna :</label>
+            <select id="color" name="color">
+                <option value="merah">Merah</option>
+                <option value="biru">Biru</option>
+                <option value="hijau">Hijau</option>
+                <option value="kuning">Kuning</option>
+            </select>
+
+            <label for="size">Ukuran:</label>
+            <select id="size" name="size">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+                <option value="XXXL">XXXL</option>
+            </select>
+
+            <label for="quantity">Jumlah:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+            <label for="notes">Catatan Kecil:</label>
+            <textarea id="notes" name="notes" rows="4" cols="50"></textarea>
+
+            <input type="submit" value="Pesan" >
+        </form>
+    </div>
+</body>
+</html>
